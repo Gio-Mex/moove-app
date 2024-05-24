@@ -49,15 +49,9 @@ for (let i = 0; i < 4; i++) {
   listaMonopattini.push(monopattino);
 }
 
-roma.aggiungiMezzo(
-  listaScooter[0],
-  listaBici[0],
-  listaBici[1],
-  listaMonopattini[0]
-);
-
 // Test aggiunta mezzi
 
+roma.aggiungiMezzo(listaScooter[0], listaBici[0], listaBici[1], listaMonopattini[0]);
 madrid.aggiungiMezzo(listaScooter[1], listaBici[2], listaMonopattini[1]);
 berlino.aggiungiMezzo(listaScooter[2], listaBici[3], listaMonopattini[2]);
 parigi.aggiungiMezzo(listaScooter[3], listaMonopattini[3]);

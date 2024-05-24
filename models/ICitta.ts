@@ -13,8 +13,8 @@ class Citta implements ICitta {
     this.nome = nome;
     this.mezzi = [];
   }
-  aggiungiMezzo(...veicoli: IMezzo[]): void {
-    this.mezzi.push(...veicoli);
+  aggiungiMezzo(...mezzi: IMezzo[]): void {
+    this.mezzi.push(...mezzi);
   }
 }
 
