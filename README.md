@@ -4,7 +4,7 @@
 
 ## Description
 
-This simple educational app demonstrates using classes and interfaces in Typescript. In particular, it manages the booking of transport for a hypothetical company called Moove.
+This simple educational app demonstrates using classes and interfaces in TypeScript. In particular, it manages the booking of transport for a hypothetical company called Moove.
 
 ## Installation
 
