@@ -3,7 +3,7 @@ import IMezzo from "./IMezzo";
 interface ICitta {
   nome: string;
   mezzi: IMezzo[];
-  aggiungiMezzo(...Mezzo: IMezzo[]): void;
+  aggiungiMezzo(...mezzi: IMezzo[]): void;
 }
 
 class Citta implements ICitta {
